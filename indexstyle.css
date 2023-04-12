@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-image: url(wyatt_portfolio\ yellow.png);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    animation: fadeIn 1s;
+}
+
+header {
+    margin-top: 50px;
+}
+
+span {
+  font-family: "Yanone Kaffeesatz";
+  font-size: 40px;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #b5a043;
+}
+
+.heading {
+    margin-top: 80px;
+    position: absolute;
+    left: 50%;
+}
+
+.spantext {
+        font-family: "Yanone Kaffeesatz";
+        font-size: 80px;
+        display: flex;
+        user-select: none;
+}
+    
+        .wrapper {
+            padding-right: 20px;
+            padding-top: 20px;
+        }
+            .letter {
+                transition: ease-out 1s;
+                transform: translateY(40%);
+            }
+
+            .shadow {
+                transform: scale(1, -1);
+                color: #999;
+                transition: ease-in 5s, ease-out 5s;
+            }
+                .shadow {
+                    animation: textFade 3s;
+                    opacity: 0;
+                    transform: translateY(200%);
+                }
+
+.spantext2 {
+                    font-family: "Yanone Kaffeesatz";
+                    font-size: 80px;
+                    display: flex;
+                    position: absolute;
+                    left: 50%;
+                    bottom: 49%;
+                    user-select: none;
+            }
+                
+                    .wrapper2 {
+                        padding-right: 20px;
+                        padding-top: 20px;
+                    }
+                        .letter2 {
+                            transition: ease-out 1s;
+                            transform: translateY(40%);
+                        }
+            
+                        .shadow2 {
+                            transform: scale(1, -1);
+                            color: #999;
+                            transition: ease-in 5s, ease-out 5s;
+                        }
+                            .shadow2 {
+                                animation: textFade 3s;
+                                opacity: 0;
+                                transform: translateY(200%);
+                            }
+
+.text {
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    height: 300px;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 250px;
+    border-top: solid 5px #F4CF00;
+    border-right: solid 5px #F4CF00;
+    padding-right: 20px;
+}
+
+
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( #434343 0%, #1c1c1c  51%, #000000  100%);
+    border-bottom: 5px solid black;
+}
+
+.button {
+  margin: 10px;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #ffffff;
+  background-image: linear-gradient(45deg, #434343 0%, #1c1c1c  51%, #F4CF00  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:after {
+  transform: scale(0.95);
+}
+
+.shoulder {
+    padding: 20px;
+}
+
+#s1 {
+    border-bottom: 1px solid #F4CF00;
+}
+
+@media (min-width: 768px) {
+  .button-64 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+  @media (min-width: 768px) {
+    .button-52 {
+      padding: 13px 50px 13px;
+    }
+  }
+
+@keyframes fadeIn {
+    
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+
+  }
+
+@keyframes textFade {
+    0% {opacity: 0.3;}
+    0% {transform: translateY(10%);}
+     100% {opacity: 0;}
+    100% {transform: translateY(150%);}
+}
+
+@keyframes textMove {
+   0% {transition: ease-out 1s};
+   0% {transform: translateY(40%)}
+}
+
+  .container {
+    width: 100%;
+  }
+

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Joan';
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1800px;
+    font-size: 40px;
+    width: 1px;
+    animation: fadeIn 5s;
+}
+
+main {
+    margin-left: 30px;
+    color: white;
+    inline-size: 800px;
+    overflow-wrap: break-word;
+    margin-top: 80px;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+body {
+    background: black;
+    background-size: cover;
+}
+
+.first {
+    margin-top: -50px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.second {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.fitness {
+    border: solid white 1px;
+    height: 300px;
+    width: 700px;
+    margin-left: 30px;
+
+}
+
+.previous {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 1200px;
+    position: absolute;
+    top: 30%;
+    height: 100px;
+    width: 250px;
+}
+
+.button {
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 40px 200px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    transition: 0.5s;
+    text-decoration: none;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 14px -7px #ffffff;
+    background-image: linear-gradient(45deg, #434343 0%, #1c1c1c  51%, #F4CF00  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.coffe {
+    border: solid white 1px;
+    height: 300px;
+    width: 700px;
+    margin-left: 30px;
+}
+
+#logo {
+    height: 20px;
+    width: 20px;
+}
+
